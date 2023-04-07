@@ -37,6 +37,7 @@ body{
     width: 200px;
     text-align: center;
     border-radius: 10px;
+    position: relative;
 }
 
 footer{
@@ -44,14 +45,6 @@ footer{
     text-align: center;
     margin-top: 350px;
 }
-
-
-
-
-
-
-
-
 
 
 /*-----------------------------*/
