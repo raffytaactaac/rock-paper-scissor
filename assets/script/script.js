@@ -26,43 +26,30 @@ rock.addEventListener('click', function () {
         computer.setAttribute("src", `assets/image/${arrList[randomNun]}`);
 
     if (randomNun == 0) {
-        console.log("Draw!")
         gameResult.innerHTML = "Draw!";
         gameResult.style.display = "block";
     }
     else if (randomNun == 1) {
-        console.log("You Lose!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "Computer Win!";
         computerScore.innerHTML = ++y;
     }
     else {
-        console.log("You Win!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "You Win!";
         playerScore.innerHTML = ++x;
     }
 
     if (x == 3) {
-        console.log("You win the game!");
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
         }, 1000)
     }
     else if (y == 3) {
-        console.log("Computer win the game!");
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Lose The Match!";
             gif.setAttribute("src", "assets/image/lose.gif")
@@ -89,43 +76,30 @@ paper.addEventListener('click', function () {
         computer.setAttribute("src", `assets/image/${arrList[randomNun]}`);
 
     if (randomNun == 0) {
-        console.log("You Win!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "You Win!";
         playerScore.innerHTML = ++x;
     }
     else if (randomNun == 1) {
-        console.log("Draw!")
         gameResult.innerHTML = "Draw!";
         gameResult.style.display = "block";
     }
     else {
-        console.log("You Lose!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "Computer Win!";
         computerScore.innerHTML = ++y;
     }
 
     if (x == 3) {
-        console.log("You win the game!")
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
         }, 1000)
     }
     else if (y == 3) {
-        console.log("Computer win the game!")
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Lose The Match!";
             gif.setAttribute("src", "assets/image/lose.gif")
@@ -152,43 +126,30 @@ scissor.addEventListener('click', function () {
         computer.setAttribute("src", `assets/image/${arrList[randomNun]}`);
 
     if (randomNun == 0) {
-        console.log("You Lose!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "Computer Win!";
         computerScore.innerHTML = ++y;
     }
     else if (randomNun == 1) {
-        console.log("You Win!")
         gameResult.style.display = "block";
         gameResult.innerHTML = "You Win!";
         playerScore.innerHTML = ++x;
     }
     else {
-        console.log("Draw!")
         gameResult.innerHTML = "Draw!";
         gameResult.style.display = "block";
     }
 
     if (x == 3) {
-        console.log("You win the game!")
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
         }, 1000)
     }
     else if (y == 3) {
-        console.log("Computer win the game!")
         setTimeout(function() {
-            document.querySelector(".score-container").style.filter = "blur(5px)";
-            document.querySelector(".text-header").style.filter = "blur(5px)";
-            document.querySelector(".container").style.filter = "blur(5px)";
-            document.querySelector(".container-2").style.filter = "blur(5px)";
-            document.querySelector(".result").style.filter = "blur(5px)";
+            document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Lose The Match!";
             gif.setAttribute("src", "assets/image/lose.gif")
