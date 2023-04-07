@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="score-container">
+        <div class="player-score">
+            <p>Your Score</p>
+            <div class="score">
+                <p id="playerScore">0</p>
+            </div>
+        </div>
+        <div class="computer-score">
+            <p>Computer</p>
+            <div class="score">
+                <p id="computerScore">0</p>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-header">Rock Paper Scissor</p>
+
+    <div class="container">
+        <div class="image-container">
+            <p>YOU</p>
+            <img src="assets/image/rock-1.png" id="player">
+        </div>
+        <div class="image-container">
+            <p>Computer</p>
+            <img src="assets/image/rock-2.png" id="computer">
+        </div>
+    </div>
+
+    <div class="container-2">
+        <p>Pick Your Choice</p>
+        <div class="btn-container">
+            <button id="rockBtn">Rock</button>
+            <button id="paperBtn">Paper</button>
+            <button id="scissorBtn">Scissor</button>
+        </div>
+    </div>
+
+    <div class="result">
+        <p id="gameResult"></p>
+    </div>
+
+    <div class="modal-container" id="modal">
+        <p id="endGameResult">You Win The Match!</p>
+        <img src="assets/image/win.gif" id="gif">
+        <div class="endGameBtn-container">
+            <a href="" id="play">Play Again</a>
+            <a href="index.html" id="exit">Exit</a>
+        </div>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
