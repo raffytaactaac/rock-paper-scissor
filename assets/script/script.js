@@ -45,6 +45,7 @@ rock.addEventListener('click', function () {
             document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
+            gif.setAttribute("src", "assets/image/win.gif")
         }, 1000)
     }
     else if (y == 3) {
@@ -95,6 +96,7 @@ paper.addEventListener('click', function () {
             document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
+            gif.setAttribute("src", "assets/image/win.gif")
         }, 1000)
     }
     else if (y == 3) {
@@ -145,6 +147,7 @@ scissor.addEventListener('click', function () {
             document.querySelector(".body-container").style.filter = "blur(10px)";
             modal.style.visibility = "visible";
             endGameReult.innerHTML = "You Win The Match!";
+            gif.setAttribute("src", "assets/image/win.gif")
         }, 1000)
     }
     else if (y == 3) {
