@@ -7,18 +7,21 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    height: 100vh;
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(61, 61, 61);
 }
 /*--------------------------------------*/
 
-.home-container {
+.home-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
     height: 400px;
+}
+
+.hide{
+    display: none;
 }
 
 .title{
@@ -28,7 +31,7 @@ body{
     text-align: center;
 }
 
-.home-container a {
+.home-div button {
     text-decoration: none;
     color: rgb(34, 33, 33);
     font-size: 30px;
@@ -38,6 +41,16 @@ body{
     text-align: center;
     border-radius: 10px;
     position: relative;
+}
+
+.home-div button{
+    cursor: pointer;
+}
+
+form > input{
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
 }
 
 footer{
@@ -63,6 +76,7 @@ footer{
     width: 105px;
     height: 60px;
     background-color: white;
+    border-radius: 10px;
 }
 .player-score .score p {
     color: black;
@@ -79,6 +93,7 @@ footer{
     width: 105px;
     height: 60px;
     background-color: white;
+    border-radius: 10px;
 }
 .computer-score .score p {
     color: black;
@@ -142,6 +157,7 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .container-2 p, button {
@@ -163,6 +179,30 @@ footer{
 
 .btn-container button:hover {
     background-color: rgb(2, 204, 204);
+}
+
+.history-container {
+    width: 400px;
+    height: 70px;
+    position: absolute;
+    top: 40%;
+    right: 39%;
+    color: white;
+    text-align: left;
+}
+
+.history-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    list-style: none;
+    
+}
+.history-container h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .result {
@@ -217,7 +257,7 @@ footer{
     font-size: 20px;
 }
 
-#play {
+#playAgain {
     background-color: rgb(105, 173, 250);
     border-radius: 10px;
     color: black;
@@ -228,4 +268,18 @@ footer{
     border-radius: 10px;
     text-align: center;
     color: black;
+}
+
+/*------------------------------------------------------*/
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.draw{
+    color: aqua;
 }
